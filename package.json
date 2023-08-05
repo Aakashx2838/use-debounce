@@ -54,5 +54,14 @@
     "react-hooks",
     "hook",
     "hooks"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Aakashx2838/use-debounce"
+  },
+  "author": "Aakash Acharya",
+  "bugs": {
+    "url": "https://github.com/Aakashx2838/use-debounce/issues"
+  },
+  "homepage": "https://github.com/Aakashx2838/use-debounce#readme"
 }
