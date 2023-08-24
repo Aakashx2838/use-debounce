@@ -1,7 +1,7 @@
 {
   "name": "@aakashx2838/use-debounce",
   "private": false,
-  "version": "1.0.4",
+  "version": "1.0.5",
   "license": "MIT",
   "type": "module",
   "main": "dist/react-use-debounce.umd.js",
