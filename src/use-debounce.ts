@@ -1,10 +1,7 @@
 import { useEffect, useState } from "react";
 
-export function useDebounce(
-  value: string | number,
-  timeMS?: number,
-): string | number | undefined {
-  const [val, setVal] = useState<string | number>();
+export function useDebounce<T>(value: T, timeMS?: number): T | undefined {
+  const [val, setVal] = useState<T>();
   const delay = timeMS || 500;
 
   useEffect(() => {
